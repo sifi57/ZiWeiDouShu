@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/result/result"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0f172a",
+    "navigationBarTitleText": "星轨回响",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2"
+}

@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="hero">
+    <view class="title">星轨回响</view>
+    <view class="subtitle">60种紫微文学人格测试</view>
+  </view>
+  <button class="start-btn" bindtap="startTest">开启星轨</button>
+</view>

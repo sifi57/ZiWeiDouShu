@@ -1,0 +1,29 @@
+<view class="container" wx:if="{{result}}">
+  <view class="header">
+    <view class="title-small">你的紫微命格</view>
+    <view class="title-large">{{result.name}}</view>
+    <view class="subtitle">{{result.title}}</view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">核心特质</view>
+    <view class="section-content">{{result.coreTraits}}</view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">精神原型</view>
+    <view class="section-content">{{result.spiritualArchetype}}</view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">阴影映射</view>
+    <view class="section-content">{{result.shadowMapping}}</view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">现代生存指南</view>
+    <text class="section-content">{{result.survivalGuide}}</text>
+  </view>
+
+  <button class="restart-btn" bindtap="restartTest">重新测试</button>
+</view>
